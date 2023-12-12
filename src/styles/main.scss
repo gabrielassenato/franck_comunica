@@ -1,0 +1,39 @@
+@use 'variaveis';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: variaveis.$bgcolor;
+}
+
+header img {
+    height: 80px;
+}
+
+.nav-link {
+    text-align: center;
+    color: variaveis.$corClara;
+}
+
+.nav-link:hover {
+    color: variaveis.$corDestaqueClara;
+}
+
+.navbar-nav .nav-link.active {
+    color: variaveis.$corDestaqueEscura;
+    background-color: variaveis.$corEscura;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: variaveis.$corEscura;
+    z-index: 1000;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding:10px 0px;
+}
+
