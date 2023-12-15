@@ -1,0 +1,36 @@
+@use 'variaveis';
+
+#banner {
+    position: relative;
+    width: 100%;
+
+    #destaque {
+        color: variaveis.$corDestaqueClara;
+    }
+
+    p {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        line-height: 98px;
+        font-size: 98px;
+        font-weight: regular; 
+        text-align: start;
+        padding-bottom: 18px;
+        border-bottom: 2px solid variaveis.$corDestaqueClara;
+    }
+
+    img {
+        width: 100%;
+        height: 88vh;
+        object-fit: cover;
+    }
+
+    span {
+        font-weight: bold;
+    }
+}
+
