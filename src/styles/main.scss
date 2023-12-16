@@ -1,8 +1,9 @@
 @use 'variaveis';
 @use 'header';
 @use 'banner';
-@use 'servicos';
+@use 'services';
 @use 'sobre';
+@use 'portifolio';
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -14,5 +15,13 @@ a {
 
 body {
     background-color: variaveis.$bgcolor;
+}
+
+span {
+    font-weight: bold;
+}
+
+#destaque {
+    color: variaveis.$corDestaqueClara;
 }
 
